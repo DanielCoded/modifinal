@@ -1,5 +1,5 @@
 # dependencies
-/node_modules
+node_modules/
 /.pnp
 .pnp.js
 
@@ -11,9 +11,11 @@
 /out/
 
 # production
-/build
+build/
+dist/
 
 # misc
+.env
 .DS_Store
 *.pem
 
